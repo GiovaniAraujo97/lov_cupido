@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cupido</title>
+
+</head>
+
+<body>
+
+    <style>
+
+        body {
+            background: url(/fundo-de-dia-dos-namorados-com-coracoes-rosa_1308-37924.avif);
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            margin-left: 0px;
+        }
+
+        .cupid {
+            border: 0.8px solid rgb(231, 42, 17);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction:column;
+            padding-top: 180px;
+            padding-bottom: 300px;
+        }
+
+        .cup {
+            display: flex;
+
+        }
+
+        .box {
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            text-align: center;
+            border: 1px solid white;
+            background-color: black;
+            width: 120px;
+            height: 120px;
+            color: rgb(255, 255, 255);
+        }
+
+        .box2 {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            text-align: center;
+            border: 1px solid white;
+            background-color: rgb(224, 19, 19);
+            width: 120px;
+            height: 120px;
+            color: rgb(255, 255, 255);
+        }
+
+
+    </style>
+
+    <div class="cupid">
+        <h2>CUPIDO DO AMOR</h2>
+
+        <div class="cup">
+            <div class="box">
+                <p id="demo"></p>
+            </div>
+        
+            <div class="box2">
+                <p id="demo2"></p>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script>
+        
+        let name = window.prompt('Como você se chama?');
+
+        window.alert('ESSE É O CUPIDO COM MAIS CHANCE DE ACERTO JÁ VISTO !!!')
+        window.confirm('Pronto(a) para saber o nome do amor da sua vida?')
+        document.getElementById('demo').innerHTML= (`Seja Bem-Vinda:<br>${name}`);
+        document.getElementById('demo2').innerHTML= ('O amor da sua vida se chama, Giovani!');
+
+    </script>
+
+</body>
+
+</html>
